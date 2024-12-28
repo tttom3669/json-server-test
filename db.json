@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100,
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200,
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "大熊",
+      "password": "$2a$10$MtgEpsO6UmJaiBd347YcT.srCRfWlnS8TlUqIioZfhCzG5/G8NZmW"
+    },
+    {
+      "id": 2,
+      "name": "小熊",
+      "password": "$2a$10$/PCzqiB8pvhZymiIjTQ.A.mp8NTXohkmJfta0Q3.t7N4n8KUUBZk."
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$9tiYc/MDvn8YLggsoKMvwuxWk.W8m9x8GwvGKWaxptwPC/CtcpJgK",
+      "id": 3
+    }
+  ]
+}
